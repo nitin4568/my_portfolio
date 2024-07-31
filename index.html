@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nitin Gautam</title>
+    <link rel="stylesheet" href="nitin.css">
+    <link rel="shortcut icon" type="image/x-icon" href="nlogo.png">
+    <script src="https://kit.fontawesome.com/b0a8d4fc57.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+
+                <span class="name">Nitin Gautam</span>
+                <ul id="sidemenu">
+                    
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <button class="hire-me-btn">
+                        <i class="fa-solid fa-phone"></i>
+                        Hire Me
+                    </button>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+               
+            </nav>
+        </div>
+        <div class="header-text">
+            <p>Application Developer</p>
+            <h1>Hi, I'm <span>Nitin Gautam</span><br></h1>
+            <p>I am a dedicated developer, eager learner, and committed
+                student who loves diving into new technologies and giving </p>
+                <p>   my best in every task. With a focus on continuous improvement
+               and excellence, I excel in overcoming </p> <p> challenges and 
+                 contributing to forward-thinking projects.</p>
+            <div class="about-col-5">
+                <img src="free.png" alt="Nitin Gautam">
+            </div>
+        </div>
+        
+    </div>
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="nitingau.jpg" alt="Nitin Gautam">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Insert a brief description about Nitin Gautam here.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links make-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contentes active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>I design intuitive and visually appealing web and app interfaces, focusing on user-centered design, seamless navigation, and responsive experiences, demonstrated through projects like e-commerce platforms, health and fitness apps, and financial dashboards, resulting in increased engagement, user satisfaction, and conversion rates.</li>
+                            <li><span>Web Development</span><br>Front-end Developer, I have created a web clone only.</li>
+                            <li><span>Skills</span><br>I have learned C, C++, Java, HTML, CSS, Kotlin, XML, Jetpack Compose, JavaScript, Firebase, and Ktor.</li>
+                            <li><span>App Development</span><br>Full App Developer, I have created many apps. You can check my GitHub.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contentes" id="Experience">
+                        <ul>
+                            <li>
+                                <span>2022 - Current</span><br>
+                                Currently, I can create any type of web app interface.
+                                <p>I have designed many app interfaces, including chat apps, BMI calculators, simple calculators, and gallery editors. You can check my work on GitHub.</p>
+                            </li>
+                            <li>
+                                <span>2022 - Freelancing</span><br>
+                                I have worked on various types of apps.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contentes" id="Education">
+                        <ul>
+                            <li>
+                                <span>Class 10 - 2020</span><br>
+                                I completed my Class 10 at Saraswati School, Satna with 80%.
+                            </li>
+                            <li>
+                                <span>Class 12 - 2022</span><br>
+                                I completed my Class 12 at Saraswati School, Satna with 80%.
+                            </li>
+                            <li>
+                                <span>2022 - Current</span><br>
+                                I am currently pursuing a B.Tech in Computer Science at Gyan Ganga College, Jabalpur.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Designing responsive and user-friendly websites, focusing on the front-end using HTML and CSS only.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Skills</h2>
+                    <p>C, C++, Java, HTML, CSS, Kotlin, XML, Jetpack Compose, Flutter, Dart, JavaScript, and Firebase.</p>
+                    <p>Flutter, Dart</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>I build apps using Java, Kotlin, and Kotlin Multiplatform, creating functional and appealing applications like PhotoApp. If you have any queries, feel free to text me.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skills">
+        <div class="containerr">
+            <h1>My Skills</h1>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <img src="da.png" alt="Dart">
+                    <p>Dart</p>
+                </div>
+                <div class="skill-card">
+                    <img src="flutter.png" alt="Flutter">
+                    <p>Flutter</p>
+                </div>
+                <div class="skill-card">
+                    <img src="c++.png" alt="C++">
+                    <p>C++/C</p>
+                </div>
+                <div class="skill-card">
+                    <img src="git.png" alt="Git Source Control">
+                    <p>Git Source Control</p>
+                </div>
+                <div class="skill-card">
+                    <img src="fire.png" alt="Firebase">
+                    <p>Firebase</p>
+                </div>
+                <div class="skill-card">
+                    <img src="mo.png" alt="MongoDB">
+                    <p>MongoDB</p>
+                </div>
+                <div class="skill-card">
+                    <img src="node.png" alt="Node-JS">
+                    <p>Node-JS</p>
+                </div>
+                <div class="skill-card">
+                    <img src="js.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <img src="express.png" alt="Express JS">
+                    <p>Express JS</p>
+                </div>
+                <div class="skill-card">
+                    <img src="material.png" alt="Material-UI">
+                    <p>Material-UI</p>
+                </div>
+                <div class="skill-card">
+                    <img src="html.png" alt="HTML-CSS">
+                    <p>HTML-CSS</p>
+                </div>
+                <div class="skill-card">
+                    <img src="sql.png" alt="SQL">
+                    <p>SQL</p>
+                </div>
+                <div class="skill-card">
+                    <img src="java.png" alt="SQL">
+                    <p>Java</p>
+                </div>
+                <div class="skill-card">
+                    <img src="Kotlin.png" alt="SQL">
+                    <p>Kotlin</p>
+                </div>
+                <div class="skill-card">
+                    <img src="jetoack.png" alt="SQL">
+                    <p>Jetpack</p>
+                </div>
+                <div class="skill-card">
+                    <img src="Xml.png" alt="SQL">
+                    <p>XML</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="Social Media App Like ChatApp">
+                    <div class="layer">
+                        <h3>Social Media App Like ChatApp</h3>
+                        <p>The app connects you to talented people around the world for chatting. You can check my GitHub.</p>
+                        <a href="https://github.com/yourusername/ChatApp" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="Gallery Editor">
+                    <div class="layer">
+                        <h3>Gallery</h3>
+                        <p>I have created a gallery editor to edit images. You can check my source code on GitHub.</p>
+                        <a href="https://github.com/yourusername/GalleryEditor" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="Calculator">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>This calculator can perform various types of calculations. You can check my GitHub.</p>
+                        <a href="https://github.com/yourusername/Calculator" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> nkgautam1450@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91-8085476868</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100049727286684"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://mobile.x.com/nkgautam1450/articles"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/nitin-gautam-058308264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/nitin4568"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Nitin Gautam.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Thank You <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontentes = document.getElementsByClassName("tab-contentes");
+
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("make-link");
+            }
+            for (var tabcontente of tabcontentes) {
+                tabcontente.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("make-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxWXuajQ-YzQuRNjDowiTPlKv3h04l7OL73Vi5KXxDUA2TbaHyHkfclMj4cqSWEgOVZ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const hireMeButton = document.querySelector('.hire-me-btn');
+
+            hireMeButton.addEventListener('click', () => {
+                const phoneNumber = '+918085476868'; // Replace with your actual phone number
+                if (confirm(`Do you want to call ${phoneNumber}?`)) {
+                    window.location.href = `tel:${phoneNumber}`;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
